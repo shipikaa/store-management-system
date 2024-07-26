@@ -110,8 +110,9 @@ if ($userRole === 'superadmin') {
                     <td><?php echo htmlspecialchars($counter); ?></td>
                     <td><?php echo htmlspecialchars($row['username']); ?></td>
                     <td><?php echo htmlspecialchars($row['email']); ?></td>
-                    <td><?php echo htmlspecialchars($row['salary']); ?></td>
                     <td><?php echo htmlspecialchars($row['role']); ?></td>
+                    <td><?php echo htmlspecialchars($row['salary']); ?></td>
+                    
                     <td>
                         <a href='edit.php?id=<?php echo htmlspecialchars($row['id']); ?>'>Edit</a>
                         <a href='delete.php?id=<?php echo htmlspecialchars($row['id']); ?>'>Delete</a>
